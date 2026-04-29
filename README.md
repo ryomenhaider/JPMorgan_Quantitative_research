@@ -55,15 +55,3 @@ Credit risk modeling using machine learning to predict loan defaults.
 ### Task 4: Credit Rating Bucketing
 Optimal FICO score bucketing using log-likelihood optimization to maximize prediction accuracy.
 
-## Requirements
-
-- Python 3.14+
-- pandas
-- numpy
-- matplotlib
-- scikit-learn
-
-Install dependencies:
-```bash
-pip install pandas numpy matplotlib scikit-learn
-```
