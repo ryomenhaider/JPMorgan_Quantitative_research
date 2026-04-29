@@ -1,15 +1,12 @@
-# %%
 import pandas as pd
 from task1 import get_price
 
-# %%
 df = pd.read_csv('data/Nat_Gas_fortask2.csv')
 print(df.head())
 print(df.dtypes)
 print(df.describe())
 print(df.info())
 
-# %%
 def price_contract(injection_dates, 
                    withdrawal_dates,
                    injection_rate, 
@@ -45,9 +42,6 @@ def price_contract(injection_dates,
     value = total_withdrawal_revenue - total_injection_cost - total_storage_cost
     return round(value, 2)
 
-
-
-# %%
 val = price_contract(
     injection_dates   = ["2023-06-01", "2023-06-15"],
     withdrawal_dates  = ["2023-12-01", "2023-12-15"],
@@ -59,5 +53,3 @@ val = price_contract(
 )
 
 print(f"Contract Value: ${val}")
-
-

@@ -13,7 +13,8 @@ This repository contains solutions for the JPMorgan Chase quantitative research 
 ├── notebooks/
 │   ├── step1.ipynb           # Initial exploration
 │   ├── task2.ipynb           # Contract analysis notebook
-│   └── task3.ipynb           # Loan default prediction
+│   ├── task3.ipynb           # Loan default prediction
+│   └── task4.ipynb           # Credit rating bucketing
 ├── task1.py                  # Natural gas price interpolation
 ├── task2.py                  # Storage contract valuation
 └── README.md
@@ -48,8 +49,11 @@ value = price_contract(
 )
 ```
 
-### Task 3: Loan Default Prediction (In Progress)
+### Task 3: Loan Default Prediction
 Credit risk modeling using machine learning to predict loan defaults.
+
+### Task 4: Credit Rating Bucketing
+Optimal FICO score bucketing using log-likelihood optimization to maximize prediction accuracy.
 
 ## Requirements
 
